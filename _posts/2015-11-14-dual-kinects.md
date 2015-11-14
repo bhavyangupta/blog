@@ -20,6 +20,7 @@ This effectively solves the problem. Here's a video of my results:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sdPzqlj-LTI" frameborder="0" allowfullscreen></iframe>
 
 Look for the following :
+
 1. During the beginning, with the motor off, I cover one of the kinects and you 
 can see that the depth image on the other kinect improves. **This demonstrates 
 the interference** between the sensors.

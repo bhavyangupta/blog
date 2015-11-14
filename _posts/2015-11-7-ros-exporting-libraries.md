@@ -1,4 +1,8 @@
-# Making custom C++ libraries in catkin workspace 
+---
+layout: post
+title: Making custom C++ libraries in catkin workspace 
+---
+
 
 In some cases you want to have a custom standalone library that provides a set 
 of nodes/ functionality that any package in your workspace can use. Recently, I 

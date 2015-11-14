@@ -14,7 +14,17 @@ primitive defines the goal of the robot for that particular command primitive.
 The YAML file I am parsing will actually contain a list of the command primitives
 PANDUbot can recognize and the recognized goals.
 
-// yaml file goes here
+```YAML
+goto:
+  - vending_machine: [0,3,4]
+  - dustbin: [1,12,0]
+  - bump_space: [22,3,4]
+    
+get: # Represent scalars as lists so that the parsing can be done as "vector"
+  - snickers: [0]
+  - kit_kat: [1]
+  - root_beer: [3]
+  ```
 
 The "goto" and "get" primitives are represented as separate nodes in the YAML file.
 Each of them has a list of associative arrays that convert the user commanded goal

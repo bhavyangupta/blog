@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Generating 
+title: Floor-plan annotation for CIS 573
 ---
 
 For my CIS 573 final project we were extending an app that assists students/visitors in 
@@ -12,7 +12,7 @@ room lies on which pixel coordinates and which regions on the map are
 traversable (like corridors)?
 
 We annotated the room coordinates manually, but corridors were tricky. The following
-video shows how I did it, followed by a brief explanation:
+video shows how I did it in MATLAB, followed by a brief explanation:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/H_oayX4lM3Y" frameborder="0" allowfullscreen></iframe>
 

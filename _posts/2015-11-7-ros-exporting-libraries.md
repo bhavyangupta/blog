@@ -16,7 +16,7 @@ I first created a new package called pandubot_libraries and moved my source and
 header files inside it. Here's how my CMakeLists.txt looks for that package, 
 followed by the directory contents:
 
-``` 
+{% highlight bash %}
 cmake_minimum_required(VERSION 2.8.3)
 project(pandubot_libraries)
 
@@ -54,9 +54,9 @@ install(TARGETS pandubotActionClients
        
 install(DIRECTORY include/${PROJECT_NAME}/
         DESTINATION ${CATKIN_PACKAGE_INCLUDE_DESTINATION})
-```
+{% endhighlight %}
 
-```bash
+{% highlight bash %}
 ├── CMakeLists.txt
 ├── include
 │   └── pandubot_libraries
@@ -68,7 +68,7 @@ install(DIRECTORY include/${PROJECT_NAME}/
     ├── face_action_client.cpp
     ├── navigation_action_client.cpp
     └── object_action_client.cpp
-```
+{% endhighlight %}
 
 - First, you need to move the headers in a special directory : 
   **package_name/include/${project_name}**. This is the reccommended location for 

@@ -19,7 +19,7 @@ github_username:  bhavyangupta
 
 # Pagination:
 paginate: 1
-paginate_path: "/blog/page:num/"
+# paginate_path: "/blog/page:num/"
 
 # Build settings
 markdown: kramdown
